@@ -179,8 +179,8 @@ include_directories(
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
 # add_executable(${PROJECT_NAME}_node src/snake_robot_node.cpp)
-add_executable(main src/main.cpp src/snakeHW.cpp)
-target_link_libraries(main ${catkin_LIBRARIES} dxl_x64_cpp rt)
+# add_executable(main src/main.cpp src/snakeHW.cpp)
+# target_link_libraries(main ${catkin_LIBRARIES} dxl_x64_cpp rt)
 
 add_executable(circle_TwoJointPublisher src/circle_TwoJointPublisher.cpp)
 target_link_libraries(circle_TwoJointPublisher ${catkin_LIBRARIES})
